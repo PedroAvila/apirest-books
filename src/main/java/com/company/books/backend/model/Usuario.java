@@ -1,7 +1,16 @@
 package com.company.books.backend.model;
 
+<<<<<<< HEAD
 import java.io.Serializable;
 import java.util.List;
+=======
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="usuarios")
+public class Usuario {
+>>>>>>> c3a9d1d64c8c35cae9b6663ed04ff4f53aeb38d2
 
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
