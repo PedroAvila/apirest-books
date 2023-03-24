@@ -7,8 +7,8 @@ import com.company.books.backend.model.Usuario;
 
 public interface IUsuarioDao extends CrudRepository<Usuario, Long> {
 	
-	Usuario findByUsuario(String nombre);
+	Usuario findByNombre(String nombre);
 	
 	@Query("select u from Usuario u where u.nombre=?1")
-	Usuario findByIdUsuarioV2(String nombre);
+	Usuario findByIdNombreV2(String nombre);
 }
