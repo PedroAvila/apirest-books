@@ -1,13 +1,10 @@
 package com.company.books.backend;
 
-import java.util.Iterator;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
-import org.springframework.stereotype.Component;
 
 @SpringBootApplication
 public class ApirestBooksApplication implements CommandLineRunner {
